@@ -8,7 +8,7 @@ if [ -z "$MKTK_NO_IMPORT" ]; then
 else
   echo "cert import disabled by MKTK_NO_IMPORT"
 fi
-
+sleep 2
 if [ -z "$MKTK_NEW_SCRIPT" ]; then
   echo "no new script ( MKTK_NEW_SCRIPT ) defined"
 else

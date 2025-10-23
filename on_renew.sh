@@ -8,7 +8,7 @@ if [ -z "$MKTK_NO_IMPORT" ]; then
 else
   echo "cert import disabled by MKTK_NO_IMPORT"
 fi
-
+sleep 2
 if [ -z "$MKTK_RENEW_SCRIPT" ]; then
   echo "no renew script ( MKTK_RENEW_SCRIPT ) defined"
 else
