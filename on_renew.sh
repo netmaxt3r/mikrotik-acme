@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-source /mktik.sh
+. /mktik.sh
 echo renew cert
 mktik_copy_certs
 mktik_import_certs

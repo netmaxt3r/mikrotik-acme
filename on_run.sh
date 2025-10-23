@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-source /mktik.sh
+. /mktik.sh
 echo new cert
 mktik_copy_certs
 if [ -z "$MKTK_NO_IMPORT" ]; then
